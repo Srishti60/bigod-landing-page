@@ -7,40 +7,37 @@ import img1 from "../../../../public/images/work/logistics-management.png";
 import img2 from "../../../../public/images/work/encrypted.png";
 import img3 from "../../../../public/images/work/coronavirus.png";
 import img4 from "../../../../public/images/work/certified.png";
+import arrow from "../../../../public/images/simple/arrow.svg";
 
 const Security = () => {
   const securityLeft = [
-  {
-    imgSrc: img1 ,
-    heading: "CertiK audited",
-    subheading:
-      "",
-  },
-  {
-    imgSrc: img2,
-    heading: "2048-bit encryption",
-    subheading:
-      "",
-  }
-];
- const securityRight = [
-  {
-    imgSrc: img3,
-    heading: "Active in 20+ countries",
-    subheading:
-      "",
-  },
-   {
-    imgSrc: img4 ,
-    heading: "AML & ISO-certified across multiple regions",
-    subheading:
-      "",
-  },
-];
+    {
+      imgSrc: img1,
+      heading: "CertiK audited",
+      subheading: "",
+    },
+    {
+      imgSrc: img2,
+      heading: "2048-bit encryption",
+      subheading: "",
+    },
+  ];
+  const securityRight = [
+    {
+      imgSrc: img3,
+      heading: "Active in 20+ countries",
+      subheading: "",
+    },
+    {
+      imgSrc: img4,
+      heading: "AML & ISO-certified across multiple regions",
+      subheading: "",
+    },
+  ];
   return (
     <section id="features-section" className="scroll-mt-20">
       <div className="container relative">
-        <div className="bg-linear-to-r from-[#224187] to-[ #1780a6] absolute w-full h-full top-0 -left-1/4 blur-390"></div>
+        <div className="bg-linear-to-r from-[#224187] to-[ #1780a6] "></div>
         <div className="w-full flex flex-col justify-center items-center">
           <div className="text-center mb-14">
             <h2 className="mb-3 capitalize">
@@ -52,16 +49,26 @@ const Security = () => {
             <div className="flex flex-col gap-y-20 gap-x-20 mt-20">
               {securityLeft?.map((items, i) => (
                 <div
-                  className="bg-darkmode p-8 rounded-lg flex flex-col gap-3 h-55 w-87.5"
+                  className="bg-darkmode p-8 border border-darkmode group hover:border-[#e9cd75] hover:scale-105 duration-300 rounded-lg flex flex-col gap-3 h-55 w-87.5"
                   key={i}
                 >
-                  <div className="rounded-full bg-linear-to-r from-[#224187] to-[#1780a6] w-fit p-4 flex items-center justify-center">
-                    <Image
-                      src={items.imgSrc}
-                      alt={items.imgSrc}
-                      width={44}
-                      height={44}
-                    />
+                  <div className="flex justify-between">
+                    <div className="rounded-full bg-linear-to-r from-[#224187] to-[#1780a6] w-fit p-4 flex items-center justify-center">
+                      <Image
+                        src={items.imgSrc}
+                        alt={items.imgSrc}
+                        width={44}
+                        height={44}
+                      />
+                    </div>
+                    <div>
+                      <Image
+                        src={arrow}
+                        alt="arrow-bg"
+                        width={85}
+                        height={35}
+                      />
+                    </div>
                   </div>
 
                   <p className="text-lg text-white/80 font-semibold text-left mt-3 capitalize">
@@ -85,18 +92,27 @@ const Security = () => {
             <div className="flex flex-col gap-y-20 gap-x-20 mt-20">
               {securityRight?.map((items, i) => (
                 <div
-                  className="bg-darkmode p-8 rounded-lg flex flex-col gap-3 h-55 w-87.5"
+                  className="bg-darkmode p-8 border border-darkmode group hover:border-[#e9cd75] hover:scale-105 duration-300 rounded-lg flex flex-col gap-3 h-55 w-87.5"
                   key={i}
                 >
-                  <div className="rounded-full bg-linear-to-r from-[#224187] to-[#1780a6] w-fit p-4 flex items-center justify-center">
-                    <Image
-                      src={items.imgSrc}
-                      alt={items.imgSrc}
-                      width={44}
-                      height={44}
-                    />
+                  <div className="flex justify-between">
+                    <div className="rounded-full bg-linear-to-r from-[#224187] to-[#1780a6] w-fit p-4 flex items-center justify-center">
+                      <Image
+                        src={items.imgSrc}
+                        alt={items.imgSrc}
+                        width={44}
+                        height={44}
+                      />
+                    </div>
+                    <div>
+                      <Image
+                        src={arrow}
+                        alt="arrow-bg"
+                        width={85}
+                        height={35}
+                      />
+                    </div>
                   </div>
-
                   <p className="text-lg text-white/80 font-semibold text-left mt-3 capitalize">
                     {items.heading}
                   </p>
@@ -108,9 +124,14 @@ const Security = () => {
             </div>
           </div>
           <div className="w-full flex justify-center items-center mt-10">
-            <div className="bg-darkmode p-8 rounded-lg flex flex-col gap-3 h-55 w-87.5">
-              <div className="rounded-full bg-linear-to-r from-[#224187] to-[#1780a6] w-fit p-4 flex items-center justify-center">
-                <Image src={chart} alt="hii" width={44} height={44} />
+            <div className="bg-darkmode p-8 border border-darkmode group hover:border-[#e9cd75] hover:scale-105 duration-300 rounded-lg flex flex-col gap-3 h-55 w-87.5">
+              <div className="flex justify-between">
+                <div className="rounded-full bg-linear-to-r from-[#224187] to-[#1780a6] w-fit p-4 flex items-center justify-center">
+                  <Image src={chart} alt="hii" width={44} height={44} />
+                </div>
+                <div>
+                  <Image src={arrow} alt="arrow-bg" width={85} height={35} />
+                </div>
               </div>
 
               <p className="text-lg text-white/80 font-semibold text-left mt-3 capitalize">
@@ -119,7 +140,7 @@ const Security = () => {
               <p className="text-base font-normal text-white/60 text-center mt-2 overflow-hidden line-clamp-3 group-hover:h-auto group-hover:line-clamp-none transition-all duration-300"></p>
             </div>
           </div>
-           <h2 className="lg:text-lg font-normal text-lightpurple text-center max-w-2xl mx-auto mt-8 ">
+          <h2 className="lg:text-lg font-normal text-lightpurple text-center max-w-2xl mx-auto mt-8 ">
             Built to meet institutional standards, ready for global scale.
           </h2>
         </div>

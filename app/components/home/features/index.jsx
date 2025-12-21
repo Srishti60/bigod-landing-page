@@ -4,6 +4,7 @@ import Image from "next/image";
 import img1 from "../../../../public/images/features/collapse.png";
 import img2 from  "../../../../public/images/features/tolerance.png";
 import img3 from  "../../../../public/images/features/no-mouth.png";
+import arrow from "../../../../public/images/simple/arrow.svg";
 
 const Features = () => {
    const Featuresdata = [
@@ -48,9 +49,10 @@ const Features = () => {
             <div className="grid md:grid-cols-2 xl:grid-cols-3 lg:grid-cols-3 gap-x-10 gap-y-4 -right-1/4">
               {Featuresdata?.map((items, i) => (
                 <div
-                  className="bg-darkmode p-8 rounded-lg flex flex-col gap-3"
+                  className="bg-darkmode border border-darkmode group hover:border-[#e9cd75] hover:scale-105 duration-300 p-8 rounded-lg flex flex-col gap-3"
                   key={i}
                 >
+                  <div className="flex justify-between">
                   <div className="rounded-full bg-linear-to-r from-[#224187] to-[#1780a6] w-fit p-4 flex items-center justify-center">
                     <Image
                       src={items.imgSrc}
@@ -59,6 +61,15 @@ const Features = () => {
                       height={40}
                       className="w-11.5"
                     />
+                  </div>
+                   <div>
+                    <Image
+                      src={arrow}
+                      alt="arrow-bg"
+                      width={85}
+                      height={35}
+                    />
+                  </div>
                   </div>
                   <h2 className="text-white/80 text-lg font-medium capitalize">
                     {items.heading}

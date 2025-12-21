@@ -57,7 +57,7 @@ const Banner = () => {
       </div>
       {isOpen && (
         <div className="fixed top-0 left-0 w-full h-full bg-black/50 flex items-center justify-center z-50">
-          <div className="bg-gradient-to-br from-primary to-secondary rounded-lg sm:m-0 m-4">
+          <div className="bg-linear-to-br from-primary to-secondary rounded-lg sm:m-0 m-4">
             <div className="overlay flex items-center justify-between border-b border-solid border-border p-5 z-50 backdrop-blur-sm">
               <h3 className="text-white">How It Works</h3>
               <button onClick={closeModal} className="inline-block dark:invert">
@@ -69,7 +69,7 @@ const Banner = () => {
             </div>
             <iframe
               height="400"
-              className="p-4 md:w-[50rem] w-full"
+              className="p-4 md:w-200 w-full"
               src="https://www.youtube.com/embed/xAAEiykov1w?si=7Keuu5t0oJzZ67Q-"
               title="How Our Product Works"
               frameBorder="0"

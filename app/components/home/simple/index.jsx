@@ -19,7 +19,7 @@ const Simple = () => {
             RWA.io Trust Score: 90.6 / 100 (High)
           </p>
 
-          <div className="flex md:flex-row flex-col gap-5 items-center">
+          <div className="flex md:flex-row flex-col gap-5 items-center p-10 rounded-xl bg-linear-to-r from-[#224187] to-[#1780a6]">
             {/* Gauge */}
             <GaugeChart value={90.6} />
 

@@ -5,6 +5,8 @@ import img1 from "../../../../public/images/features/collapse.png";
 import img2 from  "../../../../public/images/features/tolerance.png";
 import img3 from  "../../../../public/images/features/no-mouth.png";
 import arrow from "../../../../public/images/simple/arrow.svg";
+import dots from "../../../../public/images/simple/3dot.png";
+
 
 const Features = () => {
    const Featuresdata = [
@@ -30,6 +32,20 @@ const Features = () => {
   return (
     <section id="features-section" className="scroll-mt-20">
       <div className="container relative">
+        <Image
+        src={dots}
+        alt="arrow-bg"
+        width={105}
+        height={35}
+        className="absolute top-10 left-0 hidden lg:block"
+      />
+        <Image
+        src={dots}
+        alt="arrow-bg"
+        width={105}
+        height={35}
+        className="absolute top-10 right-0 rotate-180 hidden lg:block"
+      />
         <div className="bg-linear-to-r from-[#224187] to-[ #1780a6] absolute w-full h-full top-0 -left-1/4 blur-390"></div>
         <div className=" gap-x-4 gap-y-4 relative z-10">
           {/* Column-1 */}

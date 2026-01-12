@@ -8,6 +8,9 @@ import img1 from "../../../../public/images/simple/sourcing.png";
 import img2 from "../../../../public/images/work/transaction.png";
 import img3 from "../../../../public/images/work/giftbox.png";
 import img4 from "../../../../public/images/work/marketplace.png";
+import whitearrow from "../../../../public/images/simple/white-arrow.png";
+import dots from "../../../../public/images/simple/3dot.png";
+
 
 
 const RealUtility = () => {
@@ -42,6 +45,35 @@ const RealUtility = () => {
   return (
     <section className="relative ">
       <div className="container">
+        <Image
+        src={whitearrow}
+        alt="arrow-bg"
+        width={105}
+        height={35}
+        className="absolute top-17 left-10 opacity-40 hidden lg:block"
+      />
+
+      <Image
+        src={whitearrow}
+        alt="arrow-bg"
+        width={105}
+        height={35}
+        className="absolute top-17 right-10 opacity-40 rotate-180 hidden lg:block"
+      />
+      <Image
+        src={dots}
+        alt="arrow-bg"
+        width={105}
+        height={35}
+        className="absolute bottom-10 right-40 opacity-40 hidden lg:block"
+      />
+      <Image
+        src={dots}
+        alt="arrow-bg"
+        width={105}
+        height={35}
+        className="absolute bottom-10 left-40 opacity-40 rotate-180 hidden lg:block"
+      />
         <div className="w-full flex flex-col justify-center items-center">
           <div className="text-center mb-14">
             <h2 className="mb-3 capitalize">

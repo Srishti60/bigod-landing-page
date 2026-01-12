@@ -1,13 +1,18 @@
 "use client";
 
 import Image from "next/image";
-import mainLogo from "../../../../public/images/simple/hele.svg";
+// import mainLogo from "../../../../public/images/simple/hele.svg";
+import mainLogo from "../../../../public/images/simple/hele2.png";
 import chart from "../../../../public//images/work/security.png";
 import img1 from "../../../../public/images/work/logistics-management.png";
 import img2 from "../../../../public/images/work/encrypted.png";
 import img3 from "../../../../public/images/work/coronavirus.png";
 import img4 from "../../../../public/images/work/certified.png";
 import arrow from "../../../../public/images/simple/arrow.svg";
+import dots from "../../../../public/images/simple/3dot.png";
+import whitearrow from "../../../../public/images/simple/white-arrow.png";
+
+
 
 const Security = () => {
   const securityLeft = [
@@ -37,6 +42,35 @@ const Security = () => {
   return (
     <section id="features-section" className="scroll-mt-20">
       <div className="container relative">
+        <Image
+        src={whitearrow}
+        alt="arrow-bg"
+        width={105}
+        height={35}
+        className="absolute top-4 -left-14 opacity-40 hidden lg:block"
+      />
+
+      <Image
+        src={whitearrow}
+        alt="arrow-bg"
+        width={105}
+        height={35}
+        className="absolute top-4 -right-12 opacity-40 rotate-180 hidden lg:block"
+      />
+        <Image
+        src={dots}
+        alt="arrow-bg"
+        width={105}
+        height={35}
+        className="absolute bottom-10 right-30 opacity-40 hidden lg:block"
+      />
+      <Image
+        src={dots}
+        alt="arrow-bg"
+        width={105}
+        height={35}
+        className="absolute bottom-10 left-30 opacity-40 rotate-180 hidden lg:block"
+      />
         <div className="bg-linear-to-r from-[#224187] to-[ #1780a6] "></div>
         <div className="w-full flex flex-col justify-center items-center">
           <div className="text-center mb-14">

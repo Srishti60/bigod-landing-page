@@ -1,13 +1,44 @@
 import Image from "next/image";
 import power from "../../../../public/images/simple/power.svg";
+import dots from "../../../../public/images/simple/3dot.png";
+import whitearrow from "../../../../public/images/simple/white-arrow.png";
 import GaugeChart from "./gaugeChart";
 
 
 const Simple = () => {
   return (
     <section className="relative overflow-hidden">
+        <Image
+        src={dots}
+        alt="arrow-bg"
+        width={105}
+        height={35}
+        className="absolute top-10 left-10 hidden lg:block"
+      />
+        <Image
+        src={dots}
+        alt="arrow-bg"
+        width={105}
+        height={35}
+        className="absolute top-10 right-10 rotate-180 hidden lg:block"
+      />
+        <Image
+        src={whitearrow}
+        alt="arrow-bg"
+        width={105}
+        height={35}
+        className="absolute bottom-10 right-10 opacity-50 hidden lg:block"
+      />
+        <Image
+        src={whitearrow}
+        alt="arrow-bg"
+        width={105}
+        height={35}
+        className="absolute bottom-10 rotate-180 opacity-50 left-10 hidden lg:block"
+      />
       <div className="container relative z-10">
         <div className="bg-linear-to-r from-[#224187] to-[#1780a6] hidden lg:block absolute w-full h-full top-1/2 blur-390"></div>
+
 
         <div className="max-w-2xl mx-auto">
           <h2 className="text-center font-semibold mb-6 sm:leading-16 capitalize">
@@ -19,7 +50,7 @@ const Simple = () => {
             RWA.io Trust Score: 90.6 / 100 (High)
           </p>
 
-          <div className="flex md:flex-row flex-col gap-5 items-center p-10 rounded-xl bg-linear-to-r from-[#224187] to-[#1780a6]">
+          <div className="flex md:flex-row flex-col gap-5 items-center p-10 rounded-xl bg-linear-to-r from-[#224187] to-[#1780a6] border-[#B1E5F1] border-2">
             {/* Gauge */}
             <GaugeChart value={90.6} />
 

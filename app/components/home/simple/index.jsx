@@ -13,14 +13,14 @@ const Simple = () => {
         alt="arrow-bg"
         width={105}
         height={35}
-        className="absolute top-10 left-10 hidden lg:block"
+        className="absolute top-10 left-10 opacity-40 hidden lg:block"
       />
         <Image
         src={dots}
         alt="arrow-bg"
         width={105}
         height={35}
-        className="absolute top-10 right-10 rotate-180 hidden lg:block"
+        className="absolute top-10 right-10 rotate-180 opacity-50 hidden lg:block"
       />
         <Image
         src={whitearrow}

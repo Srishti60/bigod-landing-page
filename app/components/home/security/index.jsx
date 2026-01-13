@@ -11,6 +11,7 @@ import img4 from "../../../../public/images/work/certified.png";
 import arrow from "../../../../public/images/simple/arrow.svg";
 import dots from "../../../../public/images/simple/3dot.png";
 import whitearrow from "../../../../public/images/simple/white-arrow.png";
+import goldendots from "../../../../public/images/simple/golden3dot.png";
 
 
 
@@ -58,18 +59,18 @@ const Security = () => {
         className="absolute top-4 -right-12 opacity-40 rotate-180 hidden lg:block"
       />
         <Image
-        src={dots}
+        src={goldendots}
         alt="arrow-bg"
         width={105}
         height={35}
-        className="absolute bottom-10 right-30 opacity-40 hidden lg:block"
+        className="absolute bottom-10 right-30 hidden lg:block"
       />
       <Image
-        src={dots}
+        src={goldendots}
         alt="arrow-bg"
         width={105}
         height={35}
-        className="absolute bottom-10 left-30 opacity-40 rotate-180 hidden lg:block"
+        className="absolute bottom-10 left-30 rotate-180 hidden lg:block"
       />
         <div className="bg-linear-to-r from-[#224187] to-[ #1780a6] "></div>
         <div className="w-full flex flex-col justify-center items-center">

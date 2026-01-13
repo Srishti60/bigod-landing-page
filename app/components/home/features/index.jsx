@@ -5,7 +5,7 @@ import img1 from "../../../../public/images/features/collapse.png";
 import img2 from  "../../../../public/images/features/tolerance.png";
 import img3 from  "../../../../public/images/features/no-mouth.png";
 import arrow from "../../../../public/images/simple/arrow.svg";
-import dots from "../../../../public/images/simple/3dot.png";
+import goldendots from "../../../../public/images/simple/golden3dot.png";
 
 
 const Features = () => {
@@ -33,14 +33,14 @@ const Features = () => {
     <section id="features-section" className="scroll-mt-20">
       <div className="container relative">
         <Image
-        src={dots}
+        src={goldendots}
         alt="arrow-bg"
         width={105}
         height={35}
         className="absolute top-10 left-0 hidden lg:block"
       />
         <Image
-        src={dots}
+        src={goldendots}
         alt="arrow-bg"
         width={105}
         height={35}

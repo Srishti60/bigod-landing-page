@@ -29,7 +29,7 @@ const Banner = () => {
                   Move at Crypto Speed
                 </h2>
                 <h3 className=" mt-4 lg:text-start text-center sm:leading-snug leading-tight capitalize">
-                  BIGOD is a gold-backed RWA security token <br /> built on BNB
+                  BIGOD is a gold-backed RWA token <br /> built on BNB
                   Chain (BEP-20)
                 </h3>
                 <p className="text-white font-normal mb-10 max-w-[70%] mt-3 lg:text-start text-center lg:mx-0 mx-auto capitalize">

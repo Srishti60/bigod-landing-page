@@ -54,7 +54,7 @@ const Features = () => {
               The Gold Floor: Built-In Downside Protection
             </h2>
             <p className="lg:text-lg font-normal text-lightpurple text-center max-w-2xl mx-auto ">
-              BIGOD is designed with a Gold Floor Mechanism Because every token
+              BIGOD is designed with a <b>Gold Floor Mechanism</b> <br /> Because every token
               is backed by physical gold, its value is anchored to a hard
               baseline - the price of gold itself. Even when crypto markets turn
               chaotic:

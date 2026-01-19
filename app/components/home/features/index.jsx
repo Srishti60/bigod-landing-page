@@ -2,51 +2,47 @@
 
 import Image from "next/image";
 import img1 from "../../../../public/images/features/collapse.png";
-import img2 from  "../../../../public/images/features/tolerance.png";
-import img3 from  "../../../../public/images/features/no-mouth.png";
+import img2 from "../../../../public/images/features/tolerance.png";
+import img3 from "../../../../public/images/features/no-mouth.png";
 import arrow from "../../../../public/images/simple/arrow.svg";
 import goldendots from "../../../../public/images/simple/golden3dot.png";
 
-
 const Features = () => {
-   const Featuresdata = [
-  {
-    imgSrc: img1,
-    heading: "No sudden collapses",
-    subheading:
-      "",
-  },
-  {
-    imgSrc:img2 ,
-    heading: "No zero-risk scenarios",
-    subheading:
-      "",
-  },
-  {
-    imgSrc: img3,
-    heading: "No sentiment-driven wipeouts",
-    subheading:
-      "",
-  },
-];
+  const Featuresdata = [
+    {
+      imgSrc: img1,
+      heading: "No sudden collapses",
+      subheading: "",
+    },
+    {
+      imgSrc: img2,
+      heading: "No zero-risk scenarios",
+      subheading: "",
+    },
+    {
+      imgSrc: img3,
+      heading: "No sentiment-driven wipeouts",
+      subheading: "",
+    },
+  ];
   return (
     <section id="features-section" className="scroll-mt-20">
       <div className="container relative">
         <Image
-        src={goldendots}
-        alt="arrow-bg"
-        width={105}
-        height={35}
-        className="absolute top-10 left-0 hidden lg:block"
-      />
+          src={goldendots}
+          alt="arrow-bg"
+          width={105}
+          height={35}
+          className="absolute top-10 left-0 hidden lg:block"
+        />
         <Image
-        src={goldendots}
-        alt="arrow-bg"
-        width={105}
-        height={35}
-        className="absolute top-10 right-0 rotate-180 hidden lg:block"
-      />
-        <div className="bg-linear-to-r from-[#224187] to-[ #1780a6] absolute w-full h-full top-0 -left-1/4 blur-390"></div>
+          src={goldendots}
+          alt="arrow-bg"
+          width={105}
+          height={35}
+          className="absolute top-10 right-0 rotate-180 hidden lg:block"
+        />
+        <div className="bg-linear-to-r from-[#003772] to-[#00C2E2] absolute w-full h-full top-0 -left-1/4 blur-390"></div>
         <div className=" gap-x-4 gap-y-4 relative z-10">
           {/* Column-1 */}
           <div className="mb-10">
@@ -65,27 +61,27 @@ const Features = () => {
             <div className="grid md:grid-cols-2 xl:grid-cols-3 lg:grid-cols-3 gap-x-10 gap-y-4 -right-1/4">
               {Featuresdata?.map((items, i) => (
                 <div
-                  className="bg-darkmode border border-darkmode group hover:border-[#e9cd75] hover:scale-105 duration-300 p-8 rounded-lg flex flex-col gap-3"
+                  className="bg-linear-to-r from-[#224187] to-[#1780a6] border border-[#B1E5F1]  group hover:border-[#e9cd75] hover:scale-105 duration-300 p-8 rounded-lg flex flex-col gap-3"
                   key={i}
                 >
                   <div className="flex justify-between">
-                  <div className="rounded-full bg-linear-to-r from-[#224187] to-[#1780a6] w-fit p-4 flex items-center justify-center">
-                    <Image
-                      src={items.imgSrc}
-                      alt={items.imgSrc}
-                      width={40}
-                      height={40}
-                      className="w-11.5"
-                    />
-                  </div>
-                   <div>
-                    <Image
-                      src={arrow}
-                      alt="arrow-bg"
-                      width={85}
-                      height={35}
-                    />
-                  </div>
+                    <div className="rounded-full bg-linear-to-r from-[#003772] to-[#00C2E2] w-fit p-4 flex items-center justify-center">
+                      <Image
+                        src={items.imgSrc}
+                        alt={items.imgSrc}
+                        width={40}
+                        height={40}
+                        className="w-11.5"
+                      />
+                    </div>
+                    <div>
+                      <Image
+                        src={arrow}
+                        alt="arrow-bg"
+                        width={85}
+                        height={35}
+                      />
+                    </div>
                   </div>
                   <h2 className="text-white/80 text-lg font-medium capitalize">
                     {items.heading}

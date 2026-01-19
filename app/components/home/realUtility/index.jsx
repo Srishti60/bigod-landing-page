@@ -1,5 +1,4 @@
 "use client";
-
 import Image from "next/image";
 import mainLogo from "../../../../public/images/simple/mainLogo.svg";
 import chart from "../../../../public/images/work/predictive-chart.png";
@@ -44,7 +43,8 @@ const RealUtility = () => {
 ];
   return (
     <section className="relative ">
-      <div className="container">
+        <div className="bg-banner-image absolute w-full h-full top-0 blur-390"></div>
+      <div className="container ">
         <Image
         src={whitearrow}
         alt="arrow-bg"
@@ -52,7 +52,6 @@ const RealUtility = () => {
         height={35}
         className="absolute top-17 left-10 opacity-40 hidden lg:block"
       />
-
       <Image
         src={whitearrow}
         alt="arrow-bg"
@@ -74,6 +73,7 @@ const RealUtility = () => {
         height={35}
         className="absolute bottom-10 left-40 opacity-40 rotate-180 hidden lg:block"
       />
+       
         <div className="w-full flex flex-col justify-center items-center">
           <div className="text-center mb-14">
             <h2 className="mb-3 capitalize">
@@ -88,7 +88,7 @@ const RealUtility = () => {
             <div className="flex flex-col gap-y-20 gap-x-20 mt-20">
               {workdataLeft?.map((items, i) => (
                 <div
-                  className="bg-darkmode border h-45 w-96 border-darkmode group hover:border-[#e9cd75] hover:scale-105 duration-300 p-8 relative rounded-2xl hover:mb-5"
+                  className="bg-linear-to-r from-[#224187] to-[#1780a6] h-45 w-96 border border-[#B1E5F1] group hover:border-[#e9cd75] hover:scale-105 duration-300 p-8 relative rounded-2xl hover:mb-5"
                   key={i}
                 >
                   <div className="rounded-full flex justify-center absolute -top-10 left-40% p-6 bg-linear-to-r from-[#224187] to-[#1780a6]">
@@ -128,7 +128,7 @@ const RealUtility = () => {
             <div className="flex flex-col gap-y-20 gap-x-20 mt-20">
               {workdataRight?.map((items, i) => (
                 <div
-                  className="bg-darkmode border h-45 w-96 border-darkmode group hover:border-[#e9cd75] hover:scale-105 duration-300 p-8 relative rounded-2xl hover:mb-5"
+                  className="bg-linear-to-r from-[#224187] to-[#1780a6] h-45 w-96 border  group hover:border-[#e9cd75] hover:scale-105 duration-300 p-8 relative rounded-2xl hover:mb-5"
                   key={i}
                 >
                   <div className="rounded-full flex justify-center absolute -top-10 left-40% p-6 bg-linear-to-r from-[#224187] to-[#1780a6]">
@@ -158,7 +158,7 @@ const RealUtility = () => {
             </div>
           </div>
           <div className="w-full flex justify-center items-center mt-20">
-            <div className="bg-darkmode border h-45 w-96 border-darkmode group hover:border-[#e9cd75] hover:scale-105 duration-300 p-8 relative rounded-2xl">
+            <div className="bg-linear-to-r from-[#224187] to-[#1780a6] h-45 w-96 border  group hover:border-[#e9cd75] hover:scale-105 duration-300 p-8 relative rounded-2xl">
               <div className="rounded-full flex justify-center absolute -top-10 left-1/2 -translate-x-1/2 p-6 bg-linear-to-r from-[#224187] to-[#1780a6]">
                 <Image src={chart} alt="img" width={44} height={44} />
               </div>

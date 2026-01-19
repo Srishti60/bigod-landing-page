@@ -1,5 +1,5 @@
 "use client";
-import banni from "../../../../public/images/banner/bannii.png"
+import banni from "../../../../public/images/banner/bannii.png";
 import Image from "next/image";
 import { useState } from "react";
 
@@ -29,27 +29,28 @@ const Banner = () => {
                   Move at Crypto Speed
                 </h2>
                 <h3 className=" mt-4 lg:text-start text-center sm:leading-snug leading-tight capitalize">
-                  BIGOD is a gold-backed RWA security token <br /> built on BNB
-                  Chain (BEP-20)
+                  BIGOD is a gold-backed RWA token built on <br /> BNB Chain
+                  (BEP-20)
                 </h3>
                 <p className="text-white font-normal mb-10 max-w-[70%] mt-3 lg:text-start text-center lg:mx-0 mx-auto capitalize">
-                 Each BIGOD represents 250 grams of real, physical gold, securely stored in insured,
-                  audited vaults and verified on-chain</p>
+                  Each BIGOD represents 250 grams of real, physical gold,
+                  securely stored in insured, audited vaults and verified
+                  on-chain
+                </p>
 
                 <div className="flex align-middle justify-center lg:justify-start">
-                  <button className="text-xl font-semibold text-white py-4 px-6 lg:px-12 bg-[#e9cd75] rounded-xl mr-6 cursor-pointer">
+                  <button
+                    className="text-xl font-semibold text-white py-4 px-6 lg:px-12 
+  bg-[#d4ad52] hover:bg-[#c3942d] 
+  transition-colors duration-300 
+  rounded-xl mr-6 cursor-pointer"
+                  >
                     Start Holding BIGOD
                   </button>
-                 
                 </div>
               </div>
               <div className="lg:col-span-5 lg:-m-48 -m-20 overflow-hidden">
-                <Image
-                  src={banni}
-                  alt="nothing"
-                  width={820}
-                  height={630}
-                />
+                <Image src={banni} alt="nothing" width={820} height={630} />
               </div>
             </div>
           </div>

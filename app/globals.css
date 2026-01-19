@@ -18,12 +18,12 @@
   --color-lightsky: #ECF2FF;
   --color-lightpurple: #B4C7ED;
 
-  --blur-390: 390px;
+  --blur-390: 280px;
 
   --background-image-banner-image: linear-gradient(
     90deg,
-    #224187,
-    #1780a6 97.15%
+    #00C2E2,
+    #003772 97.15%
   );
   --background-image-simple-bg: linear-gradient(
     90deg,
@@ -69,3 +69,16 @@
 html {
   scroll-behavior: smooth;
 }
+.scroll-container {
+  animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+

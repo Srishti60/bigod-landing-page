@@ -37,7 +37,7 @@ const Simple = () => {
         className="absolute bottom-10 rotate-180 opacity-50 left-10 hidden lg:block"
       />
       <div className="container relative z-10">
-        <div className="bg-linear-to-r from-[#224187] to-[#1780a6] hidden lg:block absolute w-full h-full top-1/2 blur-390"></div>
+        <div className="bg-linear-to-r from-[#003772] to-[#00C2E2] hidden lg:block absolute w-full h-full top-1/2 blur-390"></div>
 
 
         <div className="max-w-2xl mx-auto">

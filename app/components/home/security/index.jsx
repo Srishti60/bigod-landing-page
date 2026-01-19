@@ -41,14 +41,15 @@ const Security = () => {
     },
   ];
   return (
-    <section id="features-section" className="scroll-mt-20">
+    <section id="features-section" className="relative">
+      <div className="bg-banner-image absolute w-full h-full top-0 blur-390"></div>
       <div className="container relative">
         <Image
         src={whitearrow}
         alt="arrow-bg"
         width={105}
         height={35}
-        className="absolute top-4 -left-14 opacity-40 hidden lg:block"
+        className="absolute top-4 -left-6 opacity-40 hidden lg:block"
       />
 
       <Image
@@ -56,7 +57,7 @@ const Security = () => {
         alt="arrow-bg"
         width={105}
         height={35}
-        className="absolute top-4 -right-12 opacity-40 rotate-180 hidden lg:block"
+        className="absolute top-4 -right-6 opacity-40 rotate-180 hidden lg:block"
       />
         <Image
         src={goldendots}
@@ -72,7 +73,8 @@ const Security = () => {
         height={35}
         className="absolute bottom-10 left-30 rotate-180 hidden lg:block"
       />
-        <div className="bg-linear-to-r from-[#224187] to-[ #1780a6] "></div>
+       
+        
         <div className="w-full flex flex-col justify-center items-center">
           <div className="text-center mb-14">
             <h2 className="mb-3 capitalize">
@@ -84,7 +86,7 @@ const Security = () => {
             <div className="flex flex-col gap-y-20 gap-x-20 mt-20">
               {securityLeft?.map((items, i) => (
                 <div
-                  className="bg-darkmode p-8 border border-darkmode group hover:border-[#e9cd75] hover:scale-105 duration-300 rounded-lg flex flex-col gap-3 h-55 w-87.5"
+                  className="bg-linear-to-r from-[#224187] to-[#1780a6] p-8 border  group hover:border-[#e9cd75] hover:scale-105 duration-300 rounded-lg flex flex-col gap-3 h-55 w-87.5"
                   key={i}
                 >
                   <div className="flex justify-between">
@@ -127,7 +129,7 @@ const Security = () => {
             <div className="flex flex-col gap-y-20 gap-x-20 mt-20">
               {securityRight?.map((items, i) => (
                 <div
-                  className="bg-darkmode p-8 border border-darkmode group hover:border-[#e9cd75] hover:scale-105 duration-300 rounded-lg flex flex-col gap-3 h-55 w-87.5"
+                  className="bg-linear-to-r from-[#224187] to-[#1780a6] p-8 border border-[#B1E5F1] group hover:border-[#e9cd75] hover:scale-105 duration-300 rounded-lg flex flex-col gap-3 h-55 w-87.5"
                   key={i}
                 >
                   <div className="flex justify-between">
@@ -159,7 +161,7 @@ const Security = () => {
             </div>
           </div>
           <div className="w-full flex justify-center items-center mt-10">
-            <div className="bg-darkmode p-8 border border-darkmode group hover:border-[#e9cd75] hover:scale-105 duration-300 rounded-lg flex flex-col gap-3 h-55 w-87.5">
+            <div className="bg-linear-to-r from-[#224187] to-[#1780a6] p-8 border  group hover:border-[#e9cd75] hover:scale-105 duration-300 rounded-lg flex flex-col gap-3 h-55 w-87.5">
               <div className="flex justify-between">
                 <div className="rounded-full bg-linear-to-r from-[#224187] to-[#1780a6] w-fit p-4 flex items-center justify-center">
                   <Image src={chart} alt="hii" width={44} height={44} />

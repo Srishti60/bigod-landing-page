@@ -13,12 +13,12 @@ import Work from "./components/home/work";
 export default function Home() {
   return (
     <main>
-      <Banner/>
+      <Banner/> 
       <Work />
       <Simple />
       <Features />
-      <RealUtility />
-      <Security />
+       <RealUtility />
+       <Security /> 
       <Trade />
       <Footer />
       

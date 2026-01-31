@@ -1,6 +1,7 @@
 "use client";
 import banni from "../../../../public/images/banner/bannii.png";
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 
 const Banner = () => {
@@ -39,6 +40,7 @@ const Banner = () => {
                 </p>
 
                 <div className="flex align-middle justify-center lg:justify-start">
+                    <Link href="https://investor.bingold.to/signup">
                   <button
                     className="text-xl font-semibold text-white py-4 px-6 lg:px-12 
   bg-[#d4ad52] hover:bg-[#c3942d] 
@@ -47,6 +49,7 @@ const Banner = () => {
                   >
                     Start Holding BIGOD
                   </button>
+                  </Link>
                 </div>
               </div>
               <div className="lg:col-span-5 lg:-m-48 -m-20 overflow-hidden">

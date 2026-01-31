@@ -18,13 +18,14 @@
   --color-lightsky: #ECF2FF;
   --color-lightpurple: #B4C7ED;
 
-  --blur-390: 280px;
+  --blur-390: 390px;
 
   --background-image-banner-image: linear-gradient(
     90deg,
     #00C2E2,
     #003772 97.15%
   );
+  
   --background-image-simple-bg: linear-gradient(
     90deg,
     rgba(189, 36, 223, 0.1),

@@ -42,7 +42,7 @@ const Features = () => {
           height={35}
           className="absolute top-10 right-0 rotate-180 hidden lg:block"
         />
-        <div className="bg-linear-to-r from-[#003772] to-[#00C2E2] absolute w-full h-full top-0 -left-1/4 blur-390"></div>
+        {/* <div className="bg-linear-to-r from-[#003772] to-[#00C2E2] absolute w-full h-full top-0 -left-1/4 blur-390"></div> */}
         <div className=" gap-x-4 gap-y-4 relative z-10">
           {/* Column-1 */}
           <div className="mb-10">
@@ -61,11 +61,11 @@ const Features = () => {
             <div className="grid md:grid-cols-2 xl:grid-cols-3 lg:grid-cols-3 gap-x-10 gap-y-4 -right-1/4">
               {Featuresdata?.map((items, i) => (
                 <div
-                  className="bg-linear-to-r from-[#224187] to-[#1780a6] border border-[#B1E5F1]  group hover:border-[#e9cd75] hover:scale-105 duration-300 p-8 rounded-lg flex flex-col gap-3"
+                  className="bg-linear-to-r from-[#002D5E] to-[#004DA0] border border-[#95ABBD]  group hover:border-[#e9cd75] hover:scale-105 duration-300 p-8 rounded-lg flex flex-col gap-3"
                   key={i}
                 >
                   <div className="flex justify-between">
-                    <div className="rounded-full bg-linear-to-r from-[#003772] to-[#00C2E2] w-fit p-4 flex items-center justify-center">
+                    <div className="rounded-full bg-linear-to-r from-[#002D5E] to-[#004DA0] w-fit p-4 flex items-center justify-center">
                       <Image
                         src={items.imgSrc}
                         alt={items.imgSrc}

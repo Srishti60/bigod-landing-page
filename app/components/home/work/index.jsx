@@ -6,7 +6,7 @@ import Image from "next/image";
 const Work = () => {
   return (
     <section className="relative">
-      <div className="bg-banner-image absolute w-full h-full right-auto blur-390" />
+      <div  />
       <Image
         src={arrow}
         alt="arrow-bg"

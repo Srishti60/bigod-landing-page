@@ -37,7 +37,7 @@ const Simple = () => {
         className="absolute bottom-10 rotate-180 opacity-50 left-10 hidden lg:block"
       />
       <div className="container relative z-10">
-        <div className="bg-linear-to-r from-[#003772] to-[#00C2E2] hidden lg:block absolute w-full h-full top-1/2 blur-390"></div>
+        {/* <div className="bg-linear-to-r from-[#003772] to-[#00C2E2] hidden lg:block absolute w-full h-full top-1/2 blur-390"></div> */}
 
 
         <div className="max-w-2xl mx-auto">
@@ -50,7 +50,7 @@ const Simple = () => {
             RWA.io Trust Score: 90.6 / 100 (High)
           </p>
 
-          <div className="flex md:flex-row flex-col gap-5 items-center p-10 rounded-xl bg-linear-to-r from-[#224187] to-[#1780a6] border-[#B1E5F1] border-2">
+          <div className="flex md:flex-row flex-col gap-5 items-center p-10 rounded-xl bg-linear-to-r from-[#002D5E] to-[#004DA0] border-[#95ABBD] border-2">
             {/* Gauge */}
             <GaugeChart value={90.6} />
 

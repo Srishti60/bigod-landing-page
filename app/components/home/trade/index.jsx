@@ -7,7 +7,7 @@ const Trade = () => {
   return (
     <section className="overflow-hidden">
       <div className="container relative">
-        <div className="bg-linear-to-r from-[#003772] to-[#00C2E2] hidden lg:block absolute w-full h-full top-1/2  blur-390"></div>
+        {/* <div className="bg-linear-to-r from-[#003772] to-[#00C2E2] hidden lg:block absolute w-full h-full top-1/2  blur-390"></div> */}
         <div className="grid lg:grid-cols-2 gap-x-5 items-center relative z-10">
           <div>
             <Image

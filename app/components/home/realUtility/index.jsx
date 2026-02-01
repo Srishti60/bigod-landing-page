@@ -43,7 +43,7 @@ const RealUtility = () => {
 ];
   return (
     <section className="relative ">
-        <div className="bg-banner-image absolute w-full h-full top-0 blur-390"></div>
+        {/* <div className="bg-banner-image absolute w-full h-full top-0 blur-390"></div> */}
       <div className="container ">
         <Image
         src={whitearrow}
@@ -88,10 +88,10 @@ const RealUtility = () => {
             <div className="flex flex-col gap-y-20 gap-x-20 mt-20">
               {workdataLeft?.map((items, i) => (
                 <div
-                  className="bg-linear-to-r from-[#224187] to-[#1780a6] h-45 w-96 border border-[#B1E5F1] group hover:border-[#e9cd75] hover:scale-105 duration-300 p-8 relative rounded-2xl hover:mb-5"
+                  className="bg-linear-to-r from-[#002D5E] to-[#004DA0] h-45 w-96 border border-[#95ABBD] group hover:border-[#e9cd75] hover:scale-105 duration-300 p-8 relative rounded-2xl hover:mb-5"
                   key={i}
                 >
-                  <div className="rounded-full flex justify-center absolute -top-10 left-40% p-6 bg-linear-to-r from-[#224187] to-[#1780a6]">
+                  <div className="rounded-full flex justify-center absolute -top-10 left-40% p-6 bg-linear-to-r from-[#002D5E] to-[#004DA0]">
                     <Image
                       src={items.imgSrc}
                       alt={items.imgSrc}
@@ -128,10 +128,10 @@ const RealUtility = () => {
             <div className="flex flex-col gap-y-20 gap-x-20 mt-20">
               {workdataRight?.map((items, i) => (
                 <div
-                  className="bg-linear-to-r from-[#224187] to-[#1780a6] h-45 w-96 border  group hover:border-[#e9cd75] hover:scale-105 duration-300 p-8 relative rounded-2xl hover:mb-5"
+                  className="bg-linear-to-r from-[#002D5E] to-[#004DA0] border border-[#95ABBD] h-45 w-96   group hover:border-[#e9cd75] hover:scale-105 duration-300 p-8 relative rounded-2xl hover:mb-5"
                   key={i}
                 >
-                  <div className="rounded-full flex justify-center absolute -top-10 left-40% p-6 bg-linear-to-r from-[#224187] to-[#1780a6]">
+                  <div className="rounded-full flex justify-center absolute -top-10 left-40% p-6 bg-linear-to-r from-[#002D5E] to-[#004DA0]">
                     <Image
                       src={items.imgSrc}
                       alt={items.imgSrc}
@@ -158,8 +158,8 @@ const RealUtility = () => {
             </div>
           </div>
           <div className="w-full flex justify-center items-center mt-20">
-            <div className="bg-linear-to-r from-[#224187] to-[#1780a6] h-45 w-96 border  group hover:border-[#e9cd75] hover:scale-105 duration-300 p-8 relative rounded-2xl">
-              <div className="rounded-full flex justify-center absolute -top-10 left-1/2 -translate-x-1/2 p-6 bg-linear-to-r from-[#224187] to-[#1780a6]">
+            <div className="bg-linear-to-r from-[#002D5E] to-[#004DA0] h-45 w-96 border border-[#95ABBD]  group hover:border-[#e9cd75] hover:scale-105 duration-300 p-8 relative rounded-2xl">
+              <div className="rounded-full flex justify-center absolute -top-10 left-1/2 -translate-x-1/2 p-6 bg-linear-to-r from-[#002D5E] to-[#004DA0]">
                 <Image src={chart} alt="img" width={44} height={44} />
               </div>
 

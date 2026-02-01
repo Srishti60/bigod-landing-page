@@ -16,8 +16,9 @@ const Banner = () => {
   };
 
   return (
-    <section className="relative pb-0" id="home-section">
-      <div className="bg-banner-image absolute w-full h-full top-0 blur-390"></div>
+   <section className="bg-linear-to-r from-body-bg via-[#00C0E2] to-body-bg">
+
+      {/* <div className="bg-banner-image absolute w-full h-full top-0 blur-390"></div> */}
       <div className="overflow-hidden">
         <div className="container  relative">
           <div className="relative z-10">

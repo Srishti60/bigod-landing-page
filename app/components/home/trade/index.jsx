@@ -21,16 +21,16 @@ const Trade = () => {
             <h2 className="font-semibold text-center sm:text-start ">
              Why BIGOD. Why Now
             </h2>
-            <p className="lg:text-lg font-normal text-lightblue text-center sm:text-start">
+            <p className="lg:text-lg font-normal text-white text-center sm:text-start">
               Crypto moves fast, but volatility destroys value
             </p>
-            <p className="lg:text-lg font-normal text-lightblue text-center sm:text-start">
+            <p className="lg:text-lg font-normal text-white text-center sm:text-start">
               Gold protects wealth, but it’s slow, illiquid, and hard to move
             </p>
-            <p className="lg:text-lg font-normal text-lightblue text-center sm:text-start">
+            <p className="lg:text-lg font-normal text-white text-center sm:text-start">
              BIGOD sits at the intersection of: Gold stability × Blockchain speed × Real-world utility
             </p>
-              <p className="lg:text-lg font-normal text-lightblue text-center sm:text-start">
+              <p className="lg:text-lg font-normal text-white text-center sm:text-start">
                BIGOD is a new standard for holding and moving value.
               </p>
           

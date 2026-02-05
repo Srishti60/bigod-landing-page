@@ -45,7 +45,7 @@ const Simple = () => {
             Verified Transparency & Trust
           </h2>
 
-          <p className="text-center text-lightpurple text-lg font-normal mb-8">
+          <p className="text-center text-white text-lg font-normal mb-8">
             BIGOD's smart contract and on-chain data are publicly verifiable
             RWA.io Trust Score: 90.6 / 100 (High)
           </p>
@@ -56,17 +56,17 @@ const Simple = () => {
 
             {/* Text */}
             <div>
-              <p className="text-left text-lightpurple text-lg font-normal mb-1">
+              <p className="text-left text-white text-lg font-normal mb-1">
                 Trust Score : <b>90.60</b>
               </p>
 
-              <p className="text-left text-lightpurple text-base font-normal mb-2">
+              <p className="text-left text-white text-base font-normal mb-2">
                 The contract code has been analyzed and found to have a low
                 level risk of vulnerabilities.
               </p>
 
               <div className="flex gap-2 items-center">
-                <p className="text-left text-lightpurple text-lg font-normal">
+                <p className="text-left text-white text-lg font-normal">
                   Powered By:
                 </p>
                 <Image

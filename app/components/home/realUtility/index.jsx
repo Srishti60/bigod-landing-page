@@ -79,7 +79,7 @@ const RealUtility = () => {
             <h2 className="mb-3 capitalize">
               Real Utility, Not Just a Store of Value
             </h2>
-            <p className="text-lightpurple max-w-2xl mx-auto md:text-lg font-normal md:leading-8 capitalize">
+            <p className="text-white max-w-2xl mx-auto md:text-lg font-normal md:leading-8 capitalize">
               BIGOD is built to be used
             </p>
           </div>
@@ -107,10 +107,10 @@ const RealUtility = () => {
                       height={35}
                     />
                   </div>
-                  <p className="text-2xl text-white/80 font-semibold text-center mt-8 capitalize">
+                  <p className="text-2xl text-white font-semibold text-center mt-8 capitalize">
                     {items.heading}
                   </p>
-                  <p className="text-base font-normal text-white/60 text-center mt-2 overflow-hidden line-clamp-3 group-hover:h-auto group-hover:line-clamp-none transition-all duration-300">
+                  <p className="text-base font-normal text-white text-center mt-2 overflow-hidden line-clamp-3 group-hover:h-auto group-hover:line-clamp-none transition-all duration-300">
                     {items.subheading}
                   </p>
                 </div>
@@ -147,10 +147,10 @@ const RealUtility = () => {
                       height={35}
                     />
                   </div>
-                  <p className="text-2xl text-white/80 font-semibold text-center mt-8 capitalize">
+                  <p className="text-2xl text-white font-semibold text-center mt-8 capitalize">
                     {items.heading}
                   </p>
-                  <p className="text-base font-normal text-white/60 text-center mt-2 overflow-hidden line-clamp-3 group-hover:h-auto group-hover:line-clamp-none transition-all duration-300">
+                  <p className="text-base font-normal text-white text-center mt-2 overflow-hidden line-clamp-3 group-hover:h-auto group-hover:line-clamp-none transition-all duration-300">
                     {items.subheading}
                   </p>
                 </div>
@@ -172,7 +172,7 @@ const RealUtility = () => {
                 />
               </div>
 
-              <p className="text-2xl text-white/80 font-semibold text-center mt-8 capitalize">
+              <p className="text-2xl text-white font-semibold text-center mt-8 capitalize">
                 Future DeFi utility
               </p>
             </div>

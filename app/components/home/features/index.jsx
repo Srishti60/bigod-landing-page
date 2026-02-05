@@ -49,7 +49,7 @@ const Features = () => {
             <h2 className="font-semibold mb-6 text-center max-w-2xl mx-auto sm:leading-14 capitalize">
               The Gold Floor: Built-In Downside Protection
             </h2>
-            <p className="lg:text-lg font-normal text-lightpurple text-center max-w-2xl mx-auto ">
+            <p className="lg:text-lg font-normal text-white text-center max-w-2xl mx-auto ">
               BIGOD is designed with a <b>Gold Floor Mechanism</b> <br /> Because every token
               is backed by physical gold, its value is anchored to a hard
               baseline - the price of gold itself. Even when crypto markets turn
@@ -83,17 +83,17 @@ const Features = () => {
                       />
                     </div>
                   </div>
-                  <h2 className="text-white/80 text-lg font-medium capitalize">
+                  <h2 className="text-white text-lg font-medium capitalize">
                     {items.heading}
                   </h2>
-                  <p className="text-white/40 text-sm font-normal">
+                  <p className="text-white text-sm font-normal">
                     {items.subheading}
                   </p>
                 </div>
               ))}
             </div>
           </div>
-          <h2 className="lg:text-lg font-normal text-lightpurple text-center max-w-2xl mx-auto mt-5 ">
+          <h2 className="lg:text-lg font-normal text-white text-center max-w-2xl mx-auto mt-5 ">
             You hold value with a foundation.
           </h2>
         </div>

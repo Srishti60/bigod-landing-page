@@ -108,10 +108,10 @@ const Security = () => {
                     </div>
                   </div>
 
-                  <p className="text-lg text-white/80 font-semibold text-left mt-3 capitalize">
+                  <p className="text-lg text-white font-semibold text-left mt-3 capitalize">
                     {items.heading}
                   </p>
-                  <p className="text-base font-normal text-white/60 text-center mt-2 overflow-hidden line-clamp-3 group-hover:h-auto group-hover:line-clamp-none transition-all duration-300">
+                  <p className="text-base font-normal text-white text-center mt-2 overflow-hidden line-clamp-3 group-hover:h-auto group-hover:line-clamp-none transition-all duration-300">
                     {items.subheading}
                   </p>
                 </div>
@@ -150,10 +150,10 @@ const Security = () => {
                       />
                     </div>
                   </div>
-                  <p className="text-lg text-white/80 font-semibold text-left mt-3 capitalize">
+                  <p className="text-lg text-white font-semibold text-left mt-3 capitalize">
                     {items.heading}
                   </p>
-                  <p className="text-base font-normal text-white/60 text-center mt-2 overflow-hidden line-clamp-3 group-hover:h-auto group-hover:line-clamp-none transition-all duration-300">
+                  <p className="text-base font-normal text-white text-center mt-2 overflow-hidden line-clamp-3 group-hover:h-auto group-hover:line-clamp-none transition-all duration-300">
                     {items.subheading}
                   </p>
                 </div>
@@ -171,13 +171,13 @@ const Security = () => {
                 </div>
               </div>
 
-              <p className="text-lg text-white/80 font-semibold text-left mt-3 capitalize">
+              <p className="text-lg text-white font-semibold text-left mt-3 capitalize">
                 Multi-jurisdiction framework for gold custody & tokenization
               </p>
-              <p className="text-base font-normal text-white/60 text-center mt-2 overflow-hidden line-clamp-3 group-hover:h-auto group-hover:line-clamp-none transition-all duration-300"></p>
+              <p className="text-base font-normal text-white text-center mt-2 overflow-hidden line-clamp-3 group-hover:h-auto group-hover:line-clamp-none transition-all duration-300"></p>
             </div>
           </div>
-          <h2 className="lg:text-lg font-normal text-lightpurple text-center max-w-2xl mx-auto mt-8 ">
+          <h2 className="lg:text-lg font-normal text-white text-center max-w-2xl mx-auto mt-8 ">
             Built to meet institutional standards, ready for global scale.
           </h2>
         </div>

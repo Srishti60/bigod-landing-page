@@ -62,7 +62,7 @@ const Footer = () => {
           {/* Site Map */}
           <div>
             <h3 className="font-semibold mb-4 text-white">Site Map</h3>
-            <ul className="space-y-2 text-gray-300">
+            <ul className="space-y-2 text-white">
               <li className="cursor-pointer">
                 <a href="https://bingold.to/#tokenomics">Tokenomics</a>
               </li>
@@ -78,7 +78,7 @@ const Footer = () => {
           {/* Company */}
           <div>
             <h3 className="font-semibold mb-4 text-white">Company</h3>
-            <ul className="space-y-2 text-gray-300">
+            <ul className="space-y-2 text-white">
               <li>
                 <a
                   href="https://investor.bingold.to/terms-and-conditions"
@@ -99,7 +99,7 @@ const Footer = () => {
           {/* Resource */}
           <div>
             <h3 className="font-semibold mb-4 text-white">Resource</h3>
-            <ul className="space-y-2 text-gray-300">
+            <ul className="space-y-2 text-white">
               <li className="cursor-pointer">
                 <a href="https://bingold.to/#faq">FAQ</a>
               </li>
@@ -112,7 +112,7 @@ const Footer = () => {
           </div>
         </div>
         {/* Bottom Copyright */}
-        <div className="mt-10 text-center text-sm text-gray-400">
+        <div className="mt-10 text-center text-sm text-white">
           &copy; All rights reserved Bingold
         </div>
       </div>

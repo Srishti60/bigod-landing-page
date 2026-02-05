@@ -26,14 +26,14 @@ const Work = () => {
       <div className="container">
         <div className="text-center mb-6">
           <h2 className="mb-3 capitalize">Trusted. Listed. Growing Globally</h2>
-          <p className="text-lightpurple max-w-2xl mx-auto md:text-lg font-normal md:leading-8 capitalize">
+          <p className="text-white max-w-2xl mx-auto md:text-lg font-normal md:leading-8 capitalize">
             BIGOD is already live and accessible across leading crypto
             platforms
           </p>
         </div>
 
         <Companies />
-        <p className="text-lightpurple max-w-2xl mx-auto md:text-lg font-normal md:leading-8 capitalize text-center">
+        <p className="text-white max-w-2xl mx-auto md:text-lg font-normal md:leading-8 capitalize text-center">
              With strong early traction, BIGOD is now preparing for
             major Tier-1 and Tier-2 CEX listings, expanding global liquidity and
             access in the coming months

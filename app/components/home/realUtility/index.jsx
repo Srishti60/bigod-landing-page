@@ -84,11 +84,11 @@ const RealUtility = () => {
             </p>
           </div>
 
-          <div className="flex md:flex-row flex-col justify-content-between gap-5 align-items-center ">
+          <div className="flex md:flex-row flex-col justify-content-between gap-5 items-center ">
             <div className="flex flex-col gap-y-20 gap-x-20 mt-20">
               {workdataLeft?.map((items, i) => (
                 <div
-                  className="bg-linear-to-r from-[#002D5E] to-[#004DA0] h-45 w-96 border border-[#95ABBD] group hover:border-[#e9cd75] hover:scale-105 duration-300 p-8 relative rounded-2xl hover:mb-5"
+                  className="bg-linear-to-r from-[#002D5E] to-[#004DA0] h-45 w-87.5 border border-[#95ABBD] group hover:border-[#e9cd75] hover:scale-105 duration-300 p-8 relative rounded-2xl hover:mb-5"
                   key={i}
                 >
                   <div className="rounded-full flex justify-center absolute -top-10 left-40% p-6 bg-linear-to-r from-[#002D5E] to-[#004DA0]">
@@ -128,7 +128,7 @@ const RealUtility = () => {
             <div className="flex flex-col gap-y-20 gap-x-20 mt-20">
               {workdataRight?.map((items, i) => (
                 <div
-                  className="bg-linear-to-r from-[#002D5E] to-[#004DA0] border border-[#95ABBD] h-45 w-96   group hover:border-[#e9cd75] hover:scale-105 duration-300 p-8 relative rounded-2xl hover:mb-5"
+                  className="bg-linear-to-r from-[#002D5E] to-[#004DA0] border border-[#95ABBD] h-45 w-87.5   group hover:border-[#e9cd75] hover:scale-105 duration-300 p-8 relative rounded-2xl hover:mb-5"
                   key={i}
                 >
                   <div className="rounded-full flex justify-center absolute -top-10 left-40% p-6 bg-linear-to-r from-[#002D5E] to-[#004DA0]">
@@ -158,7 +158,7 @@ const RealUtility = () => {
             </div>
           </div>
           <div className="w-full flex justify-center items-center mt-20">
-            <div className="bg-linear-to-r from-[#002D5E] to-[#004DA0] h-45 w-96 border border-[#95ABBD]  group hover:border-[#e9cd75] hover:scale-105 duration-300 p-8 relative rounded-2xl">
+            <div className="bg-linear-to-r from-[#002D5E] to-[#004DA0] h-45 w-87.5 border border-[#95ABBD]  group hover:border-[#e9cd75] hover:scale-105 duration-300 p-8 relative rounded-2xl">
               <div className="rounded-full flex justify-center absolute -top-10 left-1/2 -translate-x-1/2 p-6 bg-linear-to-r from-[#002D5E] to-[#004DA0]">
                 <Image src={chart} alt="img" width={44} height={44} />
               </div>

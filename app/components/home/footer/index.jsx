@@ -113,7 +113,7 @@ const Footer = () => {
         </div>
         {/* Bottom Copyright */}
         <div className="mt-10 text-center text-sm text-white">
-          &copy; All rights reserved Bingold
+          &copy; All rights reserved Bingold 
         </div>
       </div>
     </footer>

@@ -16,7 +16,7 @@ const Features = () => {
     },
     {
       imgSrc: img2,
-      heading: "No zero-risk scenarios",
+      heading: "Zero-risk scenarios",
       subheading: "",
     },
     {

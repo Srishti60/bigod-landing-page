@@ -83,7 +83,7 @@ const Security = () => {
           </div>
 
           <div className="flex md:flex-row flex-col justify-content-between gap-5 align-items-center ">
-            <div className="flex flex-col md:gap-y-20 gap-y-9 gap-x-20 md:mt-20 mt-10">
+            <div className="flex flex-col md:gap-y-20 gap-y-14 gap-x-20 md:mt-20 mt-10">
               {securityLeft?.map((items, i) => (
                 <div
                   className="bg-linear-to-r from-[#002D5E] to-[#004DA0] border border-[#95ABBD] p-8   group hover:border-[#e9cd75] hover:scale-105 duration-300 rounded-lg flex flex-col gap-3 h-55 w-87.5"
@@ -126,7 +126,7 @@ const Security = () => {
                 className="h-75 w-auto"
               />
             </div>
-            <div className="flex flex-col md:gap-y-20 gap-y-9 gap-x-20 md:mt-20 mt-10">
+            <div className="flex flex-col md:gap-y-20 gap-y-14 gap-x-20 md:mt-20 mt-10">
               {securityRight?.map((items, i) => (
                 <div
                   className="bg-linear-to-r from-[#002D5E] to-[#004DA0] border border-[#95ABBD] p-8 group hover:border-[#e9cd75] hover:scale-105 duration-300 rounded-lg flex flex-col gap-3 h-55 w-87.5"

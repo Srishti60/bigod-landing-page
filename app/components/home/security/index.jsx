@@ -83,7 +83,7 @@ const Security = () => {
           </div>
 
           <div className="flex md:flex-row flex-col justify-content-between gap-5 align-items-center ">
-            <div className="flex flex-col gap-y-20 gap-x-20 mt-20">
+            <div className="flex flex-col md:gap-y-20 gap-y-9 gap-x-20 md:mt-20 mt-10">
               {securityLeft?.map((items, i) => (
                 <div
                   className="bg-linear-to-r from-[#002D5E] to-[#004DA0] border border-[#95ABBD] p-8   group hover:border-[#e9cd75] hover:scale-105 duration-300 rounded-lg flex flex-col gap-3 h-55 w-87.5"
@@ -117,7 +117,7 @@ const Security = () => {
                 </div>
               ))}
             </div>
-            <div className="h-100 w-auto relative top-52">
+            <div className="md:h-100 h-70 w-auto relative md:top-52">
               <Image
                 src={mainLogo}
                 alt="img"
@@ -126,7 +126,7 @@ const Security = () => {
                 className="h-75 w-auto"
               />
             </div>
-            <div className="flex flex-col gap-y-20 gap-x-20 mt-20">
+            <div className="flex flex-col md:gap-y-20 gap-y-9 gap-x-20 md:mt-20 mt-10">
               {securityRight?.map((items, i) => (
                 <div
                   className="bg-linear-to-r from-[#002D5E] to-[#004DA0] border border-[#95ABBD] p-8 group hover:border-[#e9cd75] hover:scale-105 duration-300 rounded-lg flex flex-col gap-3 h-55 w-87.5"

@@ -85,7 +85,7 @@ const RealUtility = () => {
           </div>
 
           <div className="flex md:flex-row flex-col justify-content-between gap-5 items-center ">
-            <div className="flex flex-col gap-y-20 gap-x-20 mt-20">
+            <div className="flex flex-col md:gap-y-20 gap-y-9 gap-x-20 md:mt-20 mt-10">
               {workdataLeft?.map((items, i) => (
                 <div
                   className="bg-linear-to-r from-[#002D5E] to-[#004DA0] h-45 w-87.5 border border-[#95ABBD] group hover:border-[#e9cd75] hover:scale-105 duration-300 p-8 relative rounded-2xl hover:mb-5"
@@ -116,7 +116,7 @@ const RealUtility = () => {
                 </div>
               ))}
             </div>
-            <div className="h-100 w-auto relative md:top-40">
+            <div className="md:h-100 h-70 w-auto relative md:top-40">
               <Image
                 src={mainLogo}
                 alt="img"
@@ -125,10 +125,10 @@ const RealUtility = () => {
                 className="h-75 w-auto"
               />
             </div>
-            <div className="flex flex-col gap-y-20 gap-x-20 mt-20">
+            <div className="flex flex-col md:gap-y-20 gap-y-9 gap-x-20 md:mt-20 mt-10">
               {workdataRight?.map((items, i) => (
                 <div
-                  className="bg-linear-to-r from-[#002D5E] to-[#004DA0] border border-[#95ABBD] h-45 w-87.5   group hover:border-[#e9cd75] hover:scale-105 duration-300 p-8 relative rounded-2xl hover:mb-5"
+                  className="bg-linear-to-r from-[#002D5E] to-[#004DA0] border border-[#95ABBD] h-45 w-87.5 group hover:border-[#e9cd75] hover:scale-105 duration-300 p-8 relative rounded-2xl hover:mb-5"
                   key={i}
                 >
                   <div className="rounded-full flex justify-center absolute -top-10 left-40% p-6 bg-linear-to-r from-[#002D5E] to-[#004DA0]">

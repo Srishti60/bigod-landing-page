@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Buy BIGOD | Gold-Backed RWA Token",
-  description: "Buy BIGOD | Gold-Backed RWA Token",
+  description: " BIGOD secure gold-backed RWA token connecting physical gold with blockchain for simple and transparent digital investment.",
 };
 
 export default function RootLayout({ children }) {

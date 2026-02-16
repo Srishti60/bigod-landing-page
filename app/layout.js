@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Bingold Landing Page",
-  description: "Bingold Landing Page",
+  title: "Buy BIGOD | Gold-Backed RWA Token",
+  description: "Buy BIGOD | Gold-Backed RWA Token",
 };
 
 export default function RootLayout({ children }) {
